@@ -1,0 +1,155 @@
+
+div.log{
+	float:right;
+	
+}	
+	body{
+	padding-top:50px;
+	background: url(../img/page-background2.png);
+	
+}
+
+#slider{
+	position:relative;
+	padding:0;
+	margin:auto;
+	overflow:hidden;
+	height:100%;
+	
+}
+
+.artikli{
+	margin:auto;
+	position:relative;
+	width:70%;
+	height:70%;
+}
+
+a:link,a:visited{
+   text-decoration: none;
+   color: #888;
+   font-weight: bold;
+   font-size: 16px;
+}
+a:hover{
+	background-color: rgba(255,255,255);
+	opacity: 0.7;
+}
+
+.menuextras {
+  font-size: 0.85em;
+  height: 30px;
+}
+.menuextras ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  float: right;
+  padding: 3px 0;
+}
+.menuextras li {
+  float: left;
+  padding: 0 8px;
+}
+.menuextras .extras li {
+  padding: 0 8px;
+}
+.menuextras .extras li a {
+  color: #333;
+}
+.menuextras .extras li a:hover {
+  color: #333;
+  text-decoration: none;
+}
+.menuextras .extras .shopping-cart-items i {
+  color: #333;
+}
+#footer{
+  background: #fffff;
+  color: #A0A0A0;
+  padding: 0 20px 10px 20px;
+  border-top: 2px solid #4f8db3;
+  margin-top: 20px;
+  -webkit-box-shadow: 0 -1px 12px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0 -1px 12px rgba(0,0,0,0.4);
+  box-shadow: 0 -1px 12px rgba(0,0,0,0.4);
+  color: 0 -1px 12px rgba(0,0,0,0.4);
+}
+
+.footer_box{
+	padding:10px;
+	width: 350px;
+	height: 210px;
+	float:left;	
+	margin-right:20px;
+	overflow: hidden;
+}
+
+.footer_box:first-child{
+	margin-left:20px;	
+}
+
+.footer_box ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	display:inline;
+	float: right;
+}
+.footer_box ul li{
+	position:relative; /*  da bi se prikazala padajuca lista  */
+	float: left;
+	
+}
+.footer_box ul li a{
+	font-family: 'Raleway', sans-serif;
+	text-align:left;
+	width:auto;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size:12px;
+	padding:10px;
+	height:auto;
+	display:block;	/*  za prikaz inline elementa kao blok element */
+}
+
+/* Drustvene mreze */
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+#social a.fa-facebook {background: #3B5998; color: white;}
+#social a.fa-twitter {background: #55ACEE;  color: white;}
+#social a.fa-google {background: #dd4b39;  color: white;}
+
+#social a.fa-twitter:hover{background-position:0 -23px;}
+#social a.fa-facebook:hover{background-position:-23px -23px;}
+#social a.fa-google:hover{background-position:-69px -69px;}
+
+
+#copyright{
+	clear:both;
+	width:auto;
+	border-top:1px dotted #a2c02f;	
+	padding:10px;
+	text-align:center;
+}
+
+
+
+
+
+
+
